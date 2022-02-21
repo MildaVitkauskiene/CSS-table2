@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link link rel="stylesheet" href="./Stylesheet.css" />
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="table">
+        <h1 class="h1">CONTACT FORM</h1>
+        <div class="konteineris">
+            <div class="pirmas-stulpelis">
+                <form action="./Form-submit.html" method="get">
+                    <div>
+                        <input class="name" required type="text" minlength="2" maxlength="50" size="25" name="name" placeholder="YOUR NAME" />
+                    </div>
+                    <div>
+                        <input class="address" required type="text" minlength="2" maxlength="50" size="25" name="address" placeholder="YOUR EMAIL ADDRESS" />
+                    </div>
+                    <div>
+                        <input class="company" required type="text" name="company" size="25" placeholder="COMPANY" /> 
+                        <input class="phone" required type="text" minlength="5" maxlength="12" size="25" pattern="\+?\d+" name="phone" placeholder="PHONE" />
+                    </div>
+                    <div>
+                        <textarea class="textarea" required name="message" rows="4" cols="50" size="50" placeholder="YOUR MESSAGE" ></textarea>
+                    </div>
+                    <div class="right">
+                        <button class="button">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+            <div class="antras-stulpelis">
+                <div class="l2">
+                <h2 class="find1">YOU CAN FIND US HERE</h2>
+                    <div class="street">SAMPLE ADDRESS. SAMPLE STREET. 123&#47;45</div>
+                    <div class="maps">OR ON MAPS</div>
+                        <ul class="l1">
+                            <li class="phonen">
+                             &#43;3&#160;(000)&#160;0123&#160;3210
+                            </li>
+                            <li class="phonen">
+                            &#43;3&#160;(000)&#160;0456&#160;3210
+                            </li>       
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div> 
+</body>
+</html>
